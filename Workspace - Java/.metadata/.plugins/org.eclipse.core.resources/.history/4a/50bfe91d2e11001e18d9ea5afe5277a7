@@ -1,0 +1,17 @@
+package convert_hora;
+
+import java.time.Instant;
+import java.time.LocalDateTime;
+import java.time.LocalDate;
+
+public class hora_texto {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		LocalDate d01 = LocalDate.parse("2022-07-20");
+		LocalDateTime d02 = LocalDateTime.parse("2022-07-20T01:30:26");
+		Instant d03 = Instant.parse("2022-07-20T01:30:26Z");
+	}
+
+}

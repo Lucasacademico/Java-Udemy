@@ -1,0 +1,17 @@
+Passo a passo Debug:
+* Selecionar uma linha a partir de onde quero testar o funcionamento do código:
+** Run > toogle breakpoint 
+	OU
+** na linha selecionada, clicar duas vezes antes da numeração de id da linha.
+
+* Após marcada a linha que iremos verificar:
+** botão direito mouse > debug as > java application
+*** Após selecionado a linha: inserir dados normalmente, e quando
+chegar na parte que devemos testa, APERTAR F6, e inserir o código.
+
+IMPORTANTE: F6 deve ser apertado sempre que um passo for executado, para que seja executado 
+um próximo. Caso o passo à ser executado seja uma entrada de dados, o usuário deverá inserir
+o dado no console para poder seguir, caso contrário, o programa ficará esperando a entrada do
+usuário.
+
+IMPORTANTE 2: CASO EU QUEIRA FINALIZAR A EXECUÇÃO ANTES DE FINALIZAR - > CTRL + F2

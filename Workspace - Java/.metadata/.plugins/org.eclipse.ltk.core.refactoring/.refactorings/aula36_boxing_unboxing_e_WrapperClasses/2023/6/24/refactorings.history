@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;aula36_boxing_unboxing_e_WrapperClasses.boxing&apos; to &apos;boxing_e_unboxing&apos;&#x0D;&#x0A;- Original project: &apos;aula36_boxing_unboxing_e_WrapperClasses&apos;&#x0D;&#x0A;- Original element: &apos;aula36_boxing_unboxing_e_WrapperClasses.boxing&apos;&#x0D;&#x0A;- Renamed element: &apos;aula36_boxing_unboxing_e_WrapperClasses.boxing_e_unboxing&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;boxing&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;aula36_boxing_unboxing_e_WrapperClasses{boxing.java[boxing" matchStrategy="1" name="boxing_e_unboxing" qualified="false" references="true" similarDeclarations="false" stamp="1686687799886" textual="false" version="1.0"/>
+</session>

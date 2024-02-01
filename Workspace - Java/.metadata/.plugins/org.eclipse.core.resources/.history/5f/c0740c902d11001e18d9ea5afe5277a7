@@ -1,0 +1,10 @@
+package convert_hora;
+
+public class hora_texto {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

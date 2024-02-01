@@ -1,0 +1,6 @@
+Funções string:
+	- Formatar: toLowerCase(), toUpperCase(), trim()
+	- recortar: substring(inicio), substring(inicio, fim)
+	- Substituir: Replace(char, char), Replace(string, string)
+	- Buscar: indexOf, LastindexOF
+	- str.Split("")

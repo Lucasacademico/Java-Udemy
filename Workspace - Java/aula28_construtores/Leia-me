@@ -1,0 +1,33 @@
+Resumindo:
+
+ * Construtor criado na classe externa depois dos atributos e antes dos métodos
+ 
+ 
+ * Modelo de construtor na classe externa:
+ 
+ 	tipo atributo1;
+ 	tipo atributo2;
+ 	tipo atributo3;
+ 	
+ 	public nome_da_classe (tipo atributo1, tipo atributo2, tipo atributo3) {
+ 		
+ 		// Referencia de atributos com perimetros
+ 		this.atributo1 = atributo1;
+ 		this.atributo2 = atributo2;
+ 		this.atributo3 = atributo3;	
+ 	}
+ 	
+ * Chamada de instaciamento de classe na classe MAIN:
+ 
+ 	...
+ 	Entrada de dados (...)
+ 	...
+ 	
+ 	nome_da_classe nome_var = new Pnome_da_classe(atributox, atributoy, atributoz);
+ 
+ IMPORTANTE: O instanciamento do objeto da classe deve ser declarado somente depois das entradas de
+ dados pelo usuário. Isso é importante para que o usuário não esqueça de preencher os dados.
+ 
+ IMPORTANTE 2: Podemos criar um contrutor com apenas 2 parametros, e invocarmos apenas o uso
+ dos parametros na função Main, e o 3º valor não seria necessário ser inserido dado.
+ 

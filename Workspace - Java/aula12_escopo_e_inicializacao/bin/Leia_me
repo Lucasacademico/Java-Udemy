@@ -1,0 +1,6 @@
+Escopo e inicialização:
+* Variaveis precisam receber algum valor para serem inicializadas (imprimidas) caso contrário
+ocorre um erro.
+* Toda variavel deve ficar dentro do alcance do escopo do método (public static void), isto é,
+caso o usuário queira declarar variaveis dentro de um 'IF' o código não funcionará, pois deve
+ser declarado fora da condicional antes com algum valor, e iniciamos a variavel dentro do IF.

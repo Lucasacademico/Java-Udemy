@@ -1,0 +1,51 @@
+Operadores Bitwise:
+- São operadores que realizam operações lógicas bit a bit em valores
+
+Tabela de operadores bitwise:
+
+	Tabela(&) - "E":
+	f f = f
+	f v = f
+	v f = f
+	v v = v
+	- Um ou mais Fs é necessario para ser F
+	- Só dois V que se torna V
+	
+	Tabela(|) - "OU":
+	f f = f
+	f v = v
+	v f = v
+	v v = v
+	- Um ou mais Vs é necessário para ser V
+	- Só dois F que se torna F.
+	
+	
+	Tabela(^) - "OU exclusivo":
+	f f = f
+	f v = v
+	v f = v
+	v v = f
+	- Apensas um valor deve ser verdadeiro para ser V
+	- Dois valores iguais é falso
+	
+Demonstração:
+
+	Valor 89
+	- Representação binária: 0101 1001
+	
+	Valor 60
+	- Representação binária: 0011 1100
+	
+	89 - 0101 1001
+	60 - 0011 1100
+
+	
+	Os resultados abaixo pegaram cada bit dos numeros anteriores, e geraram os
+	seguintes resultados conforme análise lógica de cada aspecto lógico: 
+	
+	&: 0001 1000 (24)
+	|: 0111 1101 (125)
+	^: 0110 0101 (101)
+	
+	
+	

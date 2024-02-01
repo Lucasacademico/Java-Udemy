@@ -1,0 +1,5 @@
+Criando construtor automaticamente:
+- Source > generate constructor using fields > selecionar os atributos do contrutor e gerar.
+
+Criando Gets e Sets automaticamente
+- Source > generate getters and setters > selecionar os atributos que queremos gerar get/set e gerar.

@@ -1,0 +1,6 @@
+* Esta aula roda o mesmo exercicio só que em 3 formatos diferentes.
+* As diferenças são atribuições sem classe, com classe, e uso de classe com método estático.
+
+Ex1: Sem classe, porém com funções dentro da MAIN
+Ex2: Com classe e métodos, sendo instanciadas na função MAIN
+Ex3: Com classe e métodos estáticos, sendo ACESSADAS DIFERETAMENTE sem instanciar 
